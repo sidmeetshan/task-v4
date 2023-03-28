@@ -1,0 +1,20 @@
+.title {
+    margin: 0 2rem;
+    line-height: 1rem;
+}
+
+.displays {
+    display: flex;
+    background-color: rgb(241, 241, 241);
+}
+
+.card {
+    margin: 2rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: all .6s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
